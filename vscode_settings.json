@@ -1,0 +1,67 @@
+{
+    "explorer.compactFolders": false,
+    "python.pythonPath": "C:\\Users\\valor\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "window.zoomLevel": 2,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    //"terminal.integrated.shell.windows": "C:\\Users\\valor\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "terminal.external.windowsExec": "wt -p cmd cmd",
+    "workbench.colorTheme": "Material Theme Darker",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "HTML (Eex)": "html",
+        "elixir": "html"
+    },
+    "files.associations": {
+        "*.html.eex": "html"
+    },
+    "d.servedPath": "C:\\Users\\valor\\AppData\\Roaming\\code-d\\bin\\serve-d.exe",
+    "explorer.confirmDragAndDrop": false,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.tokenColorCustomizations": {
+        "[Material Theme Darker]": {
+            "variables": "#FF0000",
+            "functions": "#fffd8a",
+            "types": "#8affef",
+            //"keywords": "#008cff",
+            "textMateRules": [
+                {
+                    "scope": "variable.other",
+                    "settings": {
+                        "foreground": "#519684"
+                    }
+                },
+                {
+                    "scope": "variable.other.readwrite",
+                    "settings": {
+                        "foreground": "#00ff95",
+                        "fontStyle": ""
+                    }
+                },{
+                    "scope": "keyword.control",
+                    "settings": {
+                        "foreground": "#FF0000",
+                        "fontStyle": ""
+                    }
+                }, {
+                    "scope": "",
+                    "settings": {
+                        "foreground": "#FF0000",
+                        "fontStyle": "bold underline"
+                    }
+                }
+            ]
+        }
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "liveshare.authenticationProvider": "GitHub"
+}
