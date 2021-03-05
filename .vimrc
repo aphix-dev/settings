@@ -38,13 +38,6 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
-" Plug 'jremmen/vim-ripgrep'
-"Plug 'tpop/vim-fugitive'
-"Plug 'leafgarland/typecript-vim'
-"Plug 'vim-utils/vim-man'
-"Plug 'lyuts/vim-rtags'
-"Plug 'git@github.com:kien/ctrlp.vim.git'
-"Plug 'mbbill/undotree'
 Plug 'preservim/nerdtree'
 Plug 'elixir-editors/vim-elixir'
 Plug 'Valloric/YouCompleteMe'
