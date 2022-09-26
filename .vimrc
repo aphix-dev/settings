@@ -1,5 +1,3 @@
-" this is a comment
-
 syntax on
 set shiftwidth=4
 set softtabstop=4
@@ -21,16 +19,17 @@ set smartindent
 inoremap {<Enter> {<CR>}<Esc>ko
 inoremap { {}<Left>
 inoremap ( ()<Left>
-inoremap ) <Right>
+" inoremap ) <Right>
 inoremap .jt<Enter> `json:""`
 inoremap " ""<Left>
 inoremap ' ''<Left>
-"nnoremap <Ctrl-N> :NERDTreeFocus
-"nnoremap <Ctrl-T> <Ctrl-W><Ctrl-W>
+
+" nnoremap <Ctrl-N> :NERDTreeFocus
+" nnoremap <Ctrl-T> <Ctrl-W><Ctrl-W>
 
 " nnoremap <C-Tab> :bn<CR>
 
-inoremap do<Enter> do<CR>end<Esc>ko<Tab>
+" inoremap do<Enter> do<CR>end<Esc>ko<Tab>
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
