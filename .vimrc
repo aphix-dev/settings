@@ -1,4 +1,13 @@
 syntax on
+set smartindent
+set showcmd
+set wildmenu
+
+colorscheme gruvbox
+set background=dark
+set colorcolumn=80
+highlight ColorColumn ctermbg=0 guibg=lightgrey
+
 set shiftwidth=4
 set softtabstop=4
 set expandtab
@@ -6,16 +15,9 @@ set number
 set noerrorbells
 set vb t_vb=
 
-autocmd VimEnter * NERDTree | wincmd p
+" autocmd VimEnter * NERDTree | wincmd p
 
-colorscheme gruvbox
-set background=dark
-
-set showcmd
-set wildmenu
-
-set smartindent
-
+" ********** CUSTOM KEY MAPPINGS *****************
 inoremap {<Enter> {<CR>}<Esc>ko
 inoremap { {}<Left>
 inoremap ( ()<Left>
@@ -31,14 +33,11 @@ inoremap ' ''<Left>
 
 " inoremap do<Enter> do<CR>end<Esc>ko<Tab>
 
-set colorcolumn=80
-highlight ColorColumn ctermbg=0 guibg=lightgrey
-
+" ********** PLUGINS *****************
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdtree'
-Plug 'elixir-editors/vim-elixir'
 Plug 'Valloric/YouCompleteMe'
 Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
 
